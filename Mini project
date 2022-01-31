@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main()
+{int n,i;
+scanf("%d\n",&n);
+char a[n];
+for(i=1;i<=n;i++){
+    scanf("%c ",&a[i]);}
+for(i=1;i<=n;i++){
+    printf("%d.",i);
+    if(a[i]=='!'){printf("Exclamation Mark\n");}
+else if (a[i]=='@'){printf("At The Rate\n");}
+else if (a[i]=='#'){printf("Hash\n");}
+else if (a[i]=='$'){printf("Dollar\n");}
+else if (a[i]=='%'){printf("Percentage\n");}
+else if (a[i]=='^'){printf("Power Symbol\n");}
+else if (a[i]=='&'){printf("AND\n");}
+else if (a[i]=='*'){printf("Multiplication Symbol\n");}
+else if (a[i]=='('){printf("Open Bracket\n");}
+else if (a[i]==')'){printf("Close Bracket\n");}
+else if (a[i]=='<'){printf("Open Angle Bracket\n");}
+else if (a[i]=='>'){printf("Close Angle Bracket\n");}
+else if (a[i]=='?'){printf("Question Mark Symbol\n");}
+else if (a[i]=='-'){printf("Substraction Symbol\n");}
+else if (a[i]=='_'){printf("Under Score\n");}
+else if (a[i]=='+'){printf("Addition Symbol\n");}
+else if (a[i]=='='){printf("Equality Symbol\n");}
+else if (a[i]==';'){printf("Semi Collen\n");}
+else if (a[i]=='{'){printf("Open Curly Bracket\n");}
+else if (a[i]=='}'){printf("Close Curly Bracket\n");}
+else if (a[i]=='['){printf("Open Angle Bracket\n");}
+else if (a[i]==']'){printf("Close Angle Bracket\n");}
+else if (a[i]==','){printf("Coma\n");}
+else if (a[i]==':'){printf("Collen\n");}
+else if (a[i]=='/'){printf("Devision Symbol\n");}
+else if (a[i]=='.'){printf("Full Stop\n");}
+else {printf("Not A Symbol Or No Input\n");}
+}
+	return 0;
+}
